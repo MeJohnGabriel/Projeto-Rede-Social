@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+body {
+  background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+}
+
+body > div.iphone {
+  background-image: url(pacote-d013/imagens/s);
+  display: inline;
+}
