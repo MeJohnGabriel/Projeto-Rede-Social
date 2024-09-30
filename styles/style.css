@@ -19,8 +19,10 @@ body {
 main {
   height: 100vh;
   position: relative;
-  background-image: url(/pacote-d013/imagens/fundo-madeira.jpg);
+  /* background-image: linear-gradient(45deg, #652bb2, #faa81b); */
+  background-image: url(/pacote-d013/imagens/plants.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section#iphone {
@@ -42,16 +44,27 @@ iframe#tela {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 275px;
+  width: 269px;
   height: 478px;
   border-radius: 3px;
 }
 
-img.buttons {
+section#redes {
+  text-align: right;
+  padding: 10px;
+}
+section#redes img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  margin: 4px;
+  box-shadow: 2px 2px 5px #0000008a;
+  box-sizing: border-box;
 }
 
-section#redes {
+section#redes img:hover {
+  box-shadow: 1px 1px 7px rgb(52, 0, 238);
+  transform: translate(-2px, -2px);
+  border: 2px solid white;
+  transition: transform 0.3s, border 0.5s;
 }

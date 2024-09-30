@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+}
+img {
+  width: 100vw;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+a {
+  /* quando esta com display vc ja esta dizendo que ocupara 100 da tela */
+  display: block;
+  padding: 20px;
+  background-color: #041e09;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: #29561e;
+  color: rgb(107, 182, 107);
+  transform: translate(0px, -1px);
+  transition: 0.5s;
+}
